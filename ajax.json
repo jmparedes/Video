@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Video 1",
+    "content": "Contenido del video 1",
+    "videoUrl": "https://www.youtube.com/watch?v=SHT8IcuXJAc"
+  },
+  {
+    "title": "Video 2",
+    "content": "Contenido del video 2",
+    "videoUrl": "https://www.youtube.com/watch?v=VuvNF9Afw9o"
+  }
+]
