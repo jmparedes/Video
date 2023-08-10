@@ -22,10 +22,13 @@ function changeVideo() {
     const currentData = data[number];
     titleArea.textContent = currentData.title;
     contentArea.textContent = currentData.content;
-    videoArea.src = currentData.videoUrl;
+
+    // Cambiar el iframe con el enlace de YouTube
+    videoArea.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${currentData.videoId}" frameborder="0" allowfullscreen></iframe>`;
+
     number = (number + 1) % data.length;
   }
 }
 
 window.onload = getData;
-button.addEventListener('click', changeVideo)
+button.addEventListener('click', changeVideo);
